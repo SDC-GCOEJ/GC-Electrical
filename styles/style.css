@@ -516,6 +516,47 @@ h4 a, div#aside p span a{
 	border:1px dashed red;
 	float:left;
 }
+
+
+.holder{
+	background-color: #ccc;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+	padding: 10px;
+	font-family: Helvetica;
+	}
+.holder .mask{
+	position: relative;
+	left: 0px;
+	top: 10px
+	width:300;
+	height: 240px;
+	overflow:hidden;
+}
+
+.holder ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.holder ul li{
+	padding: 10px 0px;
+}
+
+.holder ul li a{
+	color: darkred;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
 #footer{
 	background:#274F75 url(../images/bg-footer.gif) repeat-x;
 	min-height:113px;
